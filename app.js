@@ -45,7 +45,7 @@ const displayData = (data, bookData) => {
     const publishDate = singleBook.publish_date
       ? singleBook.publish_date[0]
       : "404 :(";
-    booksContainer.innerHTML += `<div class='p-3 border border-2 rounded w-25 mx-2 mb-2 text-center'>
+    booksContainer.innerHTML += `<div class='p-3 border border-2 rounded mx-2 mb-2 text-center'>
     <h2 class='fs-5'>${bookTitle}</h2>
     <p>Author: ${author}</p>
     <p>Publisher: ${publisher}</p>
